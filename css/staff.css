@@ -1,0 +1,48 @@
+.icon-chat-ambassador + span, .user.role-ambassador.role-host .name, .user.role-ambassador.role-cohost .name, .user.role-ambassador.role-manager .name, .user.role-ambassador.role-bouncer .name, .user.role-ambassador.role-dj .name, #chat .from.ambassador .un {
+    color: #FFA500 !important;
+}
+.icon-chat-host + span {
+    color:#e62117 !important;
+}
+.icon-chat-cohost + span, .user.role-cohost .name {
+    color: #e62117 !important;
+}
+.icon-chat-manager + span, .user.role-manager .name {
+    color: #00BFFF !important;
+}
+.icon-chat-bouncer + span, .user.role-bouncer .name {
+    color: #9932CC !important;
+}
+.icon-chat-dj + span, .user.role-dj .name {
+    color: #008000 !important;
+}
+.icon-chat-subscriber + span {
+	color: #C1973B !important;
+}
+.icon-chat-silver-subscriber + span {
+	color: #8391AE !important;
+}
+.icon-chat-ambassador {
+	background: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/ba.png") !important;
+}
+.icon-chat-host {
+	background: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/host-cohost.png") !important;
+}
+.icon-chat-cohost {	
+	background: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/host-cohost.png") !important;
+}
+.icon-chat-manager {	
+	background: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/manager.png") !important;
+}
+.icon-chat-bouncer {	
+	background: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/bouncer.png") !important;
+}
+.icon-chat-dj {	
+	background: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/rdj.png") !important;
+}
+.icon-chat-subscriber {
+	background: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/subscriber.png") !important;
+}
+.icon-chat-silver-subscriber {
+	background: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/silver-subscriber.png") !important;
+}
