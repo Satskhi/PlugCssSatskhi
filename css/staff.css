@@ -2,10 +2,10 @@
     color: #FFA500 !important;
 }
 .icon-chat-host + span {
-    color:#e62117 !important;
+    color:#D41777 !important;
 }
 .icon-chat-cohost + span, .user.role-cohost .name {
-    color: #e62117 !important;
+    color: #D41777 !important;
 }
 .icon-chat-manager + span, .user.role-manager .name {
     color: #00BFFF !important;
@@ -14,7 +14,7 @@
     color: #9932CC !important;
 }
 .icon-chat-dj + span, .user.role-dj .name {
-    color: #008000 !important;
+    color: #a8d031 !important;
 }
 .icon-chat-subscriber + span {
 	color: #C1973B !important;
