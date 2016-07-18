@@ -1,0 +1,33 @@
+@import url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/css/staff.css");
+
+/*
+.icon-site-logo {
+    background: url('');
+}
+*/
+#app-menu, .app-header, #footer, #playlist-panel, #media-panel, #history-button, #room .app-right, #user-view, #waitlist .list .sortable-placeholder, #waitlist, #waitlist .list .user, .app-right .friends {
+    background: #000;
+}
+#playlist-menu, #user-menu, #app-menu .list {
+    background: none;
+}
+.header-panel-button.selected, #footer-user .buttons .button.store:hover, #footer-user .buttons .button:hover, #app-menu .list .item:hover, #app-menu .list .logout:hover, .app-right .friends.has-requests .header {
+ background: #BC3648; 
+ color: #FFF;
+}
+#app-menu .list .rcsunload:hover {
+ background: #BC3648 !important;
+}
+/* Rory imgs*/
+/*https://i.imgur.com/tJ6bT3m.png*/
+#app-menu.open {
+    background: rgba(0, 0, 0, 1) url(https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/menu-rory.png) center bottom no-repeat !important;
+}
+#app-menu .list .logout {
+    width: 95px;
+}
+#app-menu .list .rcsunload {
+    left: 110px !important;
+    width: 115px !important;
+    bottom: 9px !important;
+}
