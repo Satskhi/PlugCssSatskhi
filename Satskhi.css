@@ -54,3 +54,14 @@
     transform: scale(1);
   }
 /* woot grab meh */
+/* scrollbar */
+::-webkit-scrollbar {
+    background: rgba(0,0,0,0.75);
+}
+::-webkit-scrollbar-thumb {
+    background: #bc3648 !important;;
+}
+.jspDrag, .jspDrag:hover, .jspTrack .jspActive, .jspTrack .jspHover {
+    background: #bc3648;
+}
+/* scrollbar */
