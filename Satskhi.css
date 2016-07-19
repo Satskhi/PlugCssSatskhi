@@ -5,6 +5,23 @@
     background: url('');
 }
 */
+/* woot grab meh */
+#woot.selected .icon, #grab.selected .icon, #meh.selected .icon {
+    animation: pulse 1s ease infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+/* woot grab meh */
 #app-menu, .app-header, #footer, #playlist-panel, #media-panel, #history-button, #room .app-right, #user-view, #waitlist .list .sortable-placeholder, #waitlist, #waitlist .list .user, .app-right .friends {
     background: #000;
 }
@@ -20,6 +37,12 @@
 }
 /* Rory imgs*/
 /*https://i.imgur.com/tJ6bT3m.png*/
+#chat-messages {
+    background: rgba(0, 0, 0, 1) url(https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/chat-rory.png) center left no-repeat !important;
+}
+#chat-header, #chat .cm, #chat .cm:nth-child(2n+1) {
+    background: rgba(0, 0, 0, 0.75);
+}
 #app-menu.open {
     background: rgba(0, 0, 0, 1) url(https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/menu-rory.png) center bottom no-repeat !important;
 }
