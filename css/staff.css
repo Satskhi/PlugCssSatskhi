@@ -1,7 +1,7 @@
 .icon-chat-ambassador + span, .user.role-ambassador.role-host .name, .user.role-ambassador.role-cohost .name, .user.role-ambassador.role-manager .name, .user.role-ambassador.role-bouncer .name, .user.role-ambassador.role-dj .name, #chat .from.ambassador .un {
     color: #FFA500 !important;
 }
-.icon-chat-host + span {
+.icon-chat-host + span, .user.role-host .name {
     color:#D41777 !important;
 }
 .icon-chat-cohost + span, .user.role-cohost .name {
