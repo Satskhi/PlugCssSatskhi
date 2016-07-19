@@ -1,27 +1,9 @@
 @import url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/css/staff.css");
-
 /*
 .icon-site-logo {
     background: url('');
 }
 */
-/* woot grab meh */
-#woot.selected .icon, #grab.selected .icon, #meh.selected .icon {
-    animation: pulse 1s ease infinite;
-}
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.5);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-/* woot grab meh */
 #app-menu, .app-header, #footer, #playlist-panel, #media-panel, #history-button, #room .app-right, #user-view, #waitlist .list .sortable-placeholder, #waitlist, #waitlist .list .user, .app-right .friends {
     background: #000;
 }
@@ -54,3 +36,21 @@
     width: 115px !important;
     bottom: 9px !important;
 }
+/* Rory imgs*/
+/* woot grab meh */
+#woot.selected .icon, #grab.selected .icon, #meh.selected .icon {
+    animation: pulse 1s ease infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+/* woot grab meh */
