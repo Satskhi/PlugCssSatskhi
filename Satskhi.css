@@ -5,7 +5,7 @@
 }
 */
 #avatars-container::before {
-    content: url(https://i.imgur.com/tzlDl3L.png);
+    content: url(https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/cabine.png);
     position: absolute;
     bottom: 45px;
     width: 100%;
