@@ -67,9 +67,9 @@
 /* scrollbar */
 /* cabine */
 #avatars-container::before {
-    content: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/cabine.png");
+    content: url(https://i.imgur.com/tzlDl3L.png);
     position: absolute;
-    bottom: 35px;
+    bottom: 45px;
     width: 100%;
     text-align: center;
     z-index: 2;
