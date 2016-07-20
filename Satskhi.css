@@ -18,7 +18,7 @@
 #avatars-container::before {
     content: url(https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/cabine.png);
     position: absolute;
-    bottom: 45px;
+    bottom: 40px;
     width: 100%;
     text-align: center;
     z-index: 2;
