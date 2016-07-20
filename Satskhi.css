@@ -24,6 +24,17 @@
     z-index: 2;
 }
 /* cabine */
+/* scrollbar */
+::-webkit-scrollbar {
+    background: rgba(0,0,0,0.75);
+}
+::-webkit-scrollbar-thumb {
+    background: #bc3648 !important;
+}
+.jspDrag, .jspDrag:hover, .jspTrack .jspActive, .jspTrack .jspHover {
+    background: #bc3648;
+}
+/* scrollbar */
 #app-menu, .app-header, #footer, #playlist-panel, #media-panel, #history-button, #room .app-right, #user-view, #waitlist .list .sortable-placeholder, #waitlist, #waitlist .list .user, .app-right .friends {
     background: #000;
 }
@@ -74,14 +85,3 @@
     transform: scale(1);
   }
 /* woot grab meh */
-/* scrollbar */
-::-webkit-scrollbar {
-    background: rgba(0,0,0,0.75);
-}
-::-webkit-scrollbar-thumb {
-    background: #bc3648 !important;
-}
-.jspDrag, .jspDrag:hover, .jspTrack .jspActive, .jspTrack .jspHover {
-    background: #bc3648;
-}
-/* scrollbar */
