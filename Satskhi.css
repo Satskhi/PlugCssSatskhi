@@ -4,6 +4,14 @@
     background: url('');
 }
 */
+#avatars-container::before {
+    content: url(https://i.imgur.com/tzlDl3L.png);
+    position: absolute;
+    bottom: 45px;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
+}
 #app-menu, .app-header, #footer, #playlist-panel, #media-panel, #history-button, #room .app-right, #user-view, #waitlist .list .sortable-placeholder, #waitlist, #waitlist .list .user, .app-right .friends {
     background: #000;
 }
@@ -65,13 +73,3 @@
     background: #bc3648;
 }
 /* scrollbar */
-/* cabine */
-#avatars-container::before {
-    content: url(https://i.imgur.com/tzlDl3L.png);
-    position: absolute;
-    bottom: 45px;
-    width: 100%;
-    text-align: center;
-    z-index: 2;
-}
-/* cabine */
