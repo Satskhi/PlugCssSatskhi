@@ -66,7 +66,7 @@
 }
 /* scrollbar */
 /* cabine */
-#avatars-container::before {
+#avatars-container:before {
     content: url(https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/cabine.png) !important;
     position: absolute !important;
     bottom: 35px !important;
