@@ -66,12 +66,12 @@
 }
 /* scrollbar */
 /* cabine */
-div#avatars-container:before {
-    content: url(https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/cabine.png) !important;
-    position: absolute !important;
-    bottom: 35px !important;
-    width: 100% !important;
-    text-align: center !important;
-    z-index: 2 !important;
+#avatars-container:before {
+    content: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/cabine.png");
+    position: absolute;
+    bottom: 35px;
+    width: 100%;
+    text-align: center;
+    z-index: 2;
 }
 /* cabine */
