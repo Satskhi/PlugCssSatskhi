@@ -5,12 +5,14 @@
 }
 */
 /* background */
+/*
 .room-background {
     display: none;
 }
 #app {
     background: url("https://i.kinja-img.com/gawker-media/image/upload/rwbbmchhw3ywavfab4pu.png") fixed center center / cover !important;
 }
+*/
 /* background */
 /* cabine */
 #avatars-container::before {
