@@ -4,6 +4,15 @@
     background: url('');
 }
 */
+/* background */
+.room-background {
+    display: none;
+}
+#app {
+    background: url("http://i.imgur.com/AMCXjLs.jpg") fixed center center / cover !important;
+}
+/* background */
+/* cabine */
 #avatars-container::before {
     content: url(https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/cabine.png);
     position: absolute;
@@ -12,6 +21,7 @@
     text-align: center;
     z-index: 2;
 }
+/* cabine */
 #app-menu, .app-header, #footer, #playlist-panel, #media-panel, #history-button, #room .app-right, #user-view, #waitlist .list .sortable-placeholder, #waitlist, #waitlist .list .user, .app-right .friends {
     background: #000;
 }
