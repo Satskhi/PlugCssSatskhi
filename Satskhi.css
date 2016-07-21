@@ -78,6 +78,9 @@
     -moz-box-shadow: none;
     box-shadow: none;
 }
+.header-panel-button {
+    border-right: none;
+}
 #app-menu .list .rcsunload:hover {
  background: #BC3648 !important;
 }
