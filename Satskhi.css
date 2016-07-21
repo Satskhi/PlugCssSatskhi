@@ -74,9 +74,9 @@
     box-shadow: inset 0 0 0 1px #bc3648!important;
 }
 #footer-user .buttons .button, .header-panel-button {
-    -webkit-box-shadow: inset 1px 0 0 0 #bc3648;
-    -moz-box-shadow: inset 1px 0 0 0 #bc3648;
-    box-shadow: inset 1px 0 0 0 #bc3648;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
 }
 #app-menu .list .rcsunload:hover {
  background: #BC3648 !important;
