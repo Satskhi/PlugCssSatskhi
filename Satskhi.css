@@ -35,15 +35,48 @@
     background: #bc3648;
 }
 /* scrollbar */
-#app-menu, .app-header, #footer, #playlist-panel, #media-panel, #history-button, #room .app-right, #user-view, #waitlist .list .sortable-placeholder, #waitlist, #waitlist .list .user, .app-right .friends {
+#app-menu, .app-header, #footer, #playlist-panel, #media-panel, #history-button, #room .app-right, #user-view, #waitlist .list .sortable-placeholder, #waitlist, #waitlist .list .user, .app-right .friends, #footer-user .info, #search, #dashboard, #chat-input, #room-settings-menu, #room-settings .general-settings {
     background: #000;
+}
+#rs-skip-button {
+    background: #000 !important;
 }
 #playlist-menu, #user-menu, #app-menu .list {
     background: none;
 }
-.header-panel-button.selected, #footer-user .buttons .button.store:hover, #footer-user .buttons .button:hover, #app-menu .list .item:hover, #app-menu .list .logout:hover, .app-right .friends.has-requests .header {
+.header-panel-button.selected, #footer-user .buttons .button.store:hover, #footer-user .buttons .button:hover, #app-menu .list .item:hover, #app-menu .list .logout:hover, .app-right .friends.has-requests .header, .communities .grid .cell, .communities .grid .cell .bar, .communities .grid .cell .meta, .communities .grid .cell .favorite, .communities .grid .cell .meta .join, .tab-menu button.selected, #user-menu .item.selected, #playlist-button, #playlist-menu .menu .row.selected, #room-settings-menu .item.selected, #chat-input {
  background: #BC3648; 
  color: #FFF;
+}
+.communities .grid .cell .meta .now-playing, .communities .grid .cell .meta .host, .communities .grid .cell .population div.guests span {
+    color: #FFF;
+}
+.app-right .friends .header i {
+    background: #FFF;
+}
+.communities .grid .cell:hover>.meta {
+    background: rgba(0,0,0,.90);
+}
+.icon-friends-grey {
+    background-position: -285px -350px;
+}
+#room-bar .favorite .icon-grab, .communities .grid .cell .favorite .icon-grab {
+    background-position: -351px -280px;
+}
+#friends-button .request-count, #footer-user .buttons .button .count, #footer-user .buttons .button .count, #user-menu .item .count, #user-menu .item .count, #user-menu .item .count {
+    border: 1px #FFF solid;
+    background: #000;
+    font-size: 11px;
+}
+#chat .focused, #room-settings .focused, #dashboard .focused, #playlist-panel .focused, #rcs-menu .focused {
+    -webkit-box-shadow: inset 0 0 0 #bc3648!important;
+    -moz-box-shadow: inset 0 0 0 #bc3648!important;
+    box-shadow: inset 0 0 0 1px #bc3648!important;
+}
+#footer-user .buttons .button, .header-panel-button {
+    -webkit-box-shadow: inset 1px 0 0 0 #bc3648;
+    -moz-box-shadow: inset 1px 0 0 0 #bc3648;
+    box-shadow: inset 1px 0 0 0 #bc3648;
 }
 #app-menu .list .rcsunload:hover {
  background: #BC3648 !important;
