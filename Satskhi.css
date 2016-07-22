@@ -45,10 +45,21 @@
 #playlist-menu, #user-menu, #app-menu .list {
     background: none;
 }
-.header-panel-button.selected, #footer-user .buttons .button.store:hover, #footer-user .buttons .button:hover, #app-menu .list .item:hover, #app-menu .list .logout:hover, .app-right .friends.has-requests .header, .communities .grid .cell, .communities .grid .cell .bar, .communities .grid .cell .meta, .communities .grid .cell .favorite, .communities .grid .cell .meta .join, .tab-menu button.selected, #user-menu .item.selected, #playlist-button, #playlist-menu .menu .row.selected, #room-settings-menu .item.selected, #chat-input {
+.header-panel-button.selected, #footer-user .buttons .button.store:hover, #footer-user .buttons .button:hover, #app-menu .list .item:hover, #app-menu .list .logout:hover, .app-right .friends.has-requests .header, .communities .grid .cell, .communities .grid .cell .bar, .communities .grid .cell .meta, .communities .grid .cell .favorite, .communities .grid .cell .meta .join, .tab-menu button.selected, #user-menu .item.selected, #playlist-button, #playlist-menu .menu .row.selected, #room-settings-menu .item.selected {
  background: #BC3648; 
  color: #FFF;
 }
+#chat-input {
+    background: #FFF;
+    color: #BC3648;
+}
+
+/*
+#chat-input-field {
+    color: #BC3648;
+}
+*/
+
 .communities .grid .cell .meta .now-playing, .communities .grid .cell .meta .host, .communities .grid .cell .population div.guests span {
     color: #FFF;
 }
