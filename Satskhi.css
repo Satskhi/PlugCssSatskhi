@@ -53,13 +53,9 @@
     background: #FFF;
     color: #BC3648;
 }
-
-/*
 #chat-input-field {
     color: #BC3648;
 }
-*/
-
 .communities .grid .cell .meta .now-playing, .communities .grid .cell .meta .host, .communities .grid .cell .population div.guests span {
     color: #FFF;
 }
