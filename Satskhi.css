@@ -113,20 +113,11 @@
     bottom: 9px !important;
 }
 /* Rory imgs*/
-/* woot grab meh */
-#woot.selected .icon, #grab.selected .icon, #meh.selected .icon {
-    animation: pulse 1s ease infinite;
+/* Chat Mention */
+#chat .mention, #chat .mention:nth-child(2n+1),  #chat .mention.is-dj, #chat .mention.is-staff, #chat .mention.is-dj:nth-child(2n+1), #chat .mention.is-staff:nth-child(2n+1) {
+    background: linear-gradient(to left, rgba(212, 23, 119,0.3) 0%,rgba(0,0,0,0.75) 100%) !important;
+    border-left: rgba(212, 23, 119, 0.75) 3px solid !important;
+}#vote .top {
+ background: #000;
 }
-@keyframes pulse {
-  0% {
-    transform: scale(1);
-  }
-
-  50% {
-    transform: scale(1.5);
-  }
-
-  100% {
-    transform: scale(1);
-  }
-/* woot grab meh */
+/* Chat Mention */
