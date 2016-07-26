@@ -28,6 +28,11 @@ background: #aa74ff !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
 }
+#vote .crowd-response .top .icon-meh, #user-lists .list.room .user .icon-meh {
+    background: url('https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/meh.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
 @keyframes pulse {
   0% {
     transform: scale(1);
