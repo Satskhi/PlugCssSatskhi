@@ -1,0 +1,44 @@
+/* Woot Add Meh */
+#vote .top {
+ background: #000;
+}
+#woot .bottom, #woot.selected, #woot.selected .top {
+background: #008000 !important;
+}
+.votes-rs .title.woot {
+background: #008000 !important;
+}
+#grab .bottom, #grab.selected, #grab.selected .top {
+background: #aa74ff !important;
+}
+.votes-rs .title.grab {
+    background: #aa74ff !important;
+}
+#meh .bottom, #meh.selected, #meh.selected .top {
+    background: #FF0000 !important;
+}
+.votes-rs .title.meh {
+    background: #FF0000 !important;
+}
+#woot.selected .icon, #grab.selected .icon, #meh.selected .icon {
+    animation: pulse 1s ease infinite !important;
+}
+#vote .crowd-response .top .icon-woot, #user-lists .list.room .user .icon-woot {
+    background: url('https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/woot.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.5);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+/* Woot Add Meh */
