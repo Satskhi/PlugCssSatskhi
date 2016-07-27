@@ -8,6 +8,10 @@ background: #008000 !important;
 .votes-rs .title.woot {
 background: #008000 !important;
 }
+#chat .rs-log-user-woot {
+    border-left: #008000 3px solid !important;
+    color: #008000 !important;
+}
 #grab .bottom, #grab.selected, #grab.selected .top {
 background: #aa74ff !important;
 }
@@ -20,15 +24,19 @@ background: #aa74ff !important;
 .votes-rs .title.meh {
     background: #FF0000 !important;
 }
+#chat .rs-log-user-meh {
+    border-left: #FF0000 3px solid !important;
+    color: #FF0000 !important;
+}
 #woot.selected .icon, #grab.selected .icon, #meh.selected .icon {
     animation: pulse 1s ease infinite !important;
 }
-#vote .crowd-response .top .icon-woot, #user-lists .list.room .user .icon-woot {
+#vote .crowd-response .top .icon-woot, #user-lists .list.room .user .icon-woot, .rsshit.sml .icon-woot, .rsshit.sml.rs-log-user-woot .badge-box i {
     background: url('https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/woot.png') !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
 }
-#vote .crowd-response .top .icon-meh, #user-lists .list.room .user .icon-meh {
+#vote .crowd-response .top .icon-meh, #user-lists .list.room .user .icon-meh, .rsshit.sml .icon-meh, .rsshit.sml.rs-log-user-meh .badge-box i {
     background: url('https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/meh.png') !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
