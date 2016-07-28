@@ -118,7 +118,5 @@
 #chat .mention, #chat .mention:nth-child(2n+1),  #chat .mention.is-dj, #chat .mention.is-staff, #chat .mention.is-dj:nth-child(2n+1), #chat .mention.is-staff:nth-child(2n+1) {
     background: linear-gradient(to left, rgba(212, 23, 119,0.3) 0%,rgba(0,0,0,0.75) 100%) !important;
     border-left: rgba(212, 23, 119, 0.75) 3px solid !important;
-}#vote .top {
- background: #000;
 }
 /* Chat Mention */
