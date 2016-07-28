@@ -1,0 +1,14 @@
+#chat .emote.id-13720951,
+#chat .mention.id-13720951,
+#chat .message.id-13720951,
+#chat .moderation,
+#chat .skip.id-13720951,
+#chat .system.id-13720951,
+#chat .update.id-13720951,
+#chat .welcome.id-13720951,
+#chat .log.id-13720951,
+#chat .promo.id-13720951,
+#chat .user-action.id-13720951 {
+    background: rgba(212, 23, 119,0.3);
+    border-left: rgba(212, 23, 119, 0.75) 3px solid;
+}
