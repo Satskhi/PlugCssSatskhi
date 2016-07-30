@@ -17,7 +17,7 @@
 }
 */
 /* background */
-/* cabine */
+/* cabine 
 #avatars-container::before {
     content: url(https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/cabine.png);
     position: absolute;
@@ -26,7 +26,7 @@
     text-align: center;
     z-index: 2;
 }
-/* cabine */
+ cabine */
 /* scrollbar */
 ::-webkit-scrollbar {
     background: rgba(0,0,0,0.75);
