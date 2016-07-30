@@ -3,7 +3,7 @@
 }
 .badge-box.no-badge i {
  background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badges/no-badge.gif");
- background-repeat: round;
+ background-repeat: no-repeat;
  background-size: 30px;
  top: 0px;
  left: 0px;
@@ -14,13 +14,13 @@
 /* Satskhi */
 .fromID-4405644 .badge-box i, .id-4405644 .badge-box i {
 	background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badges/badge-4405644.gif");
-	background-repeat: round;
+	background-repeat: no-repeat;
 	background-size: 30px;
 	border-radius: 5px;
 }
 .fromID-4453527 .badge-box i, .id-4453527 .badge-box i {
 	background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badges/badge2-4453527.jpg");
-	background-repeat: round;
+	background-repeat: no-repeat;
 	background-size: 30px;
 	border-radius: 5px;
 }
@@ -28,7 +28,7 @@
 /* Fеnix */
 .fromID-4838584 .badge-box i, .id-4838584 .badge-box i {
 	background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badges/badge-4838584.gif");
-	background-repeat: round;
+	background-repeat: no-repeat;
 	background-size: 30px;
 	border-radius: 5px;
 }
@@ -36,7 +36,7 @@
 /* Pedro */
 .fromID-3972914 .badge-box i, .id-3972914 .badge-box i {
 	background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badges/badge-3972914.gif");
-	background-repeat: round;
+	background-repeat: no-repeat;
 	background-size: 30px;
 	border-radius: 5px;
 }
