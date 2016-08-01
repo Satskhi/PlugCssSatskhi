@@ -137,7 +137,7 @@
     border-left: rgba(212, 23, 119, 0.75) 3px solid !important;
 }
 /* Chat Mention */
-#chat .moderation, #chat .moderation .from, #chat .moderation .from .un {
+#chat .moderation, #chat .moderation .from, #chat .moderation .from .un, #chat .msg .text .name, #chat .msg .text .name .name {
 color: #FFF;
 }
 /* Icons */
