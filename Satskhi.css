@@ -86,7 +86,7 @@
 #room-bar .favorite .icon-grab, .communities .grid .cell .favorite .icon-grab {
     background-position: -351px -280px;
 }
-#friends-button .request-count, #footer-user .buttons .button .count, #footer-user .buttons .button .count, #user-menu .item .count, #user-menu .item .count, #user-menu .item .count {
+#user-friends .tab-menu button .count, #friends-button .request-count, #footer-user .buttons .button .count, #footer-user .buttons .button .count, #user-menu .item .count, #user-menu .item .count, #user-menu .item .count {
     border: 1px #FFF solid;
     background: #000;
     font-size: 11px;
