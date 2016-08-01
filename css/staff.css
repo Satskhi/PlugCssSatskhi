@@ -2,19 +2,19 @@
     color: #FFA500 !important;
 }
 .icon-chat-host + span, .user.role-host .name {
-    color:#C71585 !important;
+    color:#D41777 !important;
 }
 .icon-chat-cohost + span, .user.role-cohost .name {
-    color: #C71585 !important;
+    color: #D41777 !important;
 }
 .icon-chat-manager + span, .user.role-manager .name {
-    color: #D02090 !important;
+    color: #CD2626 !important;
 }
 .icon-chat-bouncer + span, .user.role-bouncer .name {
-    color: #FF00FF !important;
+    color: #EE3B3B !important;
 }
 .icon-chat-dj + span, .user.role-dj .name {
-    color: #EE82EE !important;
+    color: #FF6A6A !important;
 }
 .icon-chat-subscriber + span {
 	color: #C1973B !important;
