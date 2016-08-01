@@ -71,6 +71,9 @@
 #playlist-menu .menu .row .count, #playlist-activate-button span, .communities .grid .cell .meta .now-playing, .communities .grid .cell .meta .host, .communities .grid .cell .population div.guests span {
     color: #FFF;
 }
+#user-lists .header .button.staff.selected {
+    border-bottom: 1px solid #bc3648;
+}
 .app-right .friends .header i {
     background: #FFF;
 }
@@ -165,6 +168,11 @@ background: url('https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/icon-next-
 }
 #your-active-playlist i {
 background: url('https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/icon-check-purple.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+#user-lists .header .button.staff i {
+background: url('https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/icon-staff.png') !important;
     background-repeat: no-repeat !important;
     background-position: center !important;
 }
