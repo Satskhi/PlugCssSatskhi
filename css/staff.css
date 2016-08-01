@@ -2,10 +2,10 @@
     color: #FFA500 !important;
 }
 .icon-chat-host + span, .user.role-host .name {
-    color:##C71585 !important;
+    color:#C71585 !important;
 }
 .icon-chat-cohost + span, .user.role-cohost .name {
-    color: ##C71585 !important;
+    color: #C71585 !important;
 }
 .icon-chat-manager + span, .user.role-manager .name {
     color: #D02090 !important;
