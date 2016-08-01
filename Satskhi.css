@@ -124,6 +124,10 @@
     bottom: 9px !important;
 }
 /* Rory imgs*/
+#rcs-progress-container .bar, #footer-user .info .bar .progress, .experience .xp .bar .progress {
+	background-color: #bc3648 !important;
+	box-shadow: 0px 0px 10px #bc3648 ; !important;
+}
 /* Chat Mention */
 #chat .mention, #chat .mention:nth-child(2n+1),  #chat .mention.is-dj, #chat .mention.is-staff, #chat .mention.is-dj:nth-child(2n+1), #chat .mention.is-staff:nth-child(2n+1) {
     background: linear-gradient(to right, rgba(212, 23, 119,0.3) 0%,rgba(0,0,0,0.75) 50%) !important;
