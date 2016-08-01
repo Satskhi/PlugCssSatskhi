@@ -45,7 +45,7 @@
 	background: #000 !important;
     width: 254px !important;
 }
-#history-panel, #history-button.selected, #app-menu, .app-header, #footer, #playlist-panel, #media-panel, #history-button, #room .app-right, #user-view, #waitlist .list .sortable-placeholder, #waitlist, #waitlist .list .user, .app-right .friends, #footer-user .info, #search, #dashboard, #chat-input, #room-settings-menu, #room-settings .general-settings {
+#playlist-activate-button, #history-panel, #history-button.selected, #app-menu, .app-header, #footer, #playlist-panel, #media-panel, #history-button, #room .app-right, #user-view, #waitlist .list .sortable-placeholder, #waitlist, #waitlist .list .user, .app-right .friends, #footer-user .info, #search, #dashboard, #chat-input, #room-settings-menu, #room-settings .general-settings {
     background: #000;
 }
 .media-list.history .row.selected {
