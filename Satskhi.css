@@ -34,12 +34,22 @@
 ::-webkit-scrollbar-thumb {
     background: #bc3648 !important;
 }
+#playlist-import:hover, .media-list .selected .actions {
+	background: #bc3648;
+}
 .jspDrag, .jspDrag:hover, .jspTrack .jspActive, .jspTrack .jspHover {
     background: #bc3648;
 }
 /* scrollbar */
-#app-menu, .app-header, #footer, #playlist-panel, #media-panel, #history-button, #room .app-right, #user-view, #waitlist .list .sortable-placeholder, #waitlist, #waitlist .list .user, .app-right .friends, #footer-user .info, #search, #dashboard, #chat-input, #room-settings-menu, #room-settings .general-settings {
+.votes-rs {
+	background: #000 !important;
+    width: 254px !important;
+}
+#history-panel, #history-button.selected, #app-menu, .app-header, #footer, #playlist-panel, #media-panel, #history-button, #room .app-right, #user-view, #waitlist .list .sortable-placeholder, #waitlist, #waitlist .list .user, .app-right .friends, #footer-user .info, #search, #dashboard, #chat-input, #room-settings-menu, #room-settings .general-settings {
     background: #000;
+}
+.media-list.history .row.selected {
+    background: rgba(188,54,72,0.3);
 }
 #rs-skip-button {
     background: #000 !important;
@@ -58,7 +68,7 @@
 #chat-input-field {
     color: #BC3648;
 }
-.communities .grid .cell .meta .now-playing, .communities .grid .cell .meta .host, .communities .grid .cell .population div.guests span {
+#playlist-menu .menu .row .count, #playlist-activate-button span, .communities .grid .cell .meta .now-playing, .communities .grid .cell .meta .host, .communities .grid .cell .population div.guests span {
     color: #FFF;
 }
 .app-right .friends .header i {
@@ -122,4 +132,39 @@
 /* Chat Mention */
 #chat .moderation, #chat .moderation .from, #chat .moderation .from .un {
 color: #FFF;
+}
+/* Icons */
+#chat-button i {
+background: url('https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/icon-chat.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+#users-button i {
+background: url('https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/icon-population.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+#waitlist-button i {
+background: url('https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/icon-waitlist.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+#playlist-activate-button i {
+background: url('https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/icon-check-circle.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+#your-next-media i {
+background: url('https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/icon-next-track.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+#your-active-playlist i {
+background: url('https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/icon-check-purple.png') !important;
+    background-repeat: no-repeat !important;
+    background-position: center !important;
+}
+/* Icons */
+#playlist-menu .menu .row .activate-button .icon-check-purple {
+    background-position: -70px -140px !important;
 }
