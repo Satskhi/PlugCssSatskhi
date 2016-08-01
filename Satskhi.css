@@ -54,7 +54,7 @@
 #rs-skip-button {
     background: #000 !important;
 }
-#playlist-menu, #user-menu, #app-menu .list {
+.user-content .grid .cell, .user-content.communities .grid .cell, #playlist-menu, #user-menu, #app-menu .list {
     background: none;
 }
 .header-panel-button.selected, #footer-user .buttons .button.store:hover, #footer-user .buttons .button:hover, #app-menu .list .item:hover, #app-menu .list .logout:hover, .app-right .friends.has-requests .header, .communities .grid .cell, .communities .grid .cell .bar, .communities .grid .cell .meta, .communities .grid .cell .favorite, .communities .grid .cell .meta .join, .tab-menu button.selected, #user-menu .item.selected, #playlist-button, #playlist-menu .menu .row.selected, #room-settings-menu .item.selected, .dialog-frame .button.submit.destructive {
