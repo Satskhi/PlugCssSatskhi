@@ -1,11 +1,8 @@
 .icon-chat-ambassador + span, .user.role-ambassador.role-host .name, .user.role-ambassador.role-cohost .name, .user.role-ambassador.role-manager .name, .user.role-ambassador.role-bouncer .name, .user.role-ambassador.role-dj .name, #chat .from.ambassador .un {
     color: #FFA500 !important;
 }
-.icon-chat-host + span, .user.role-host .name {
+.icon-chat-host + span, .user.role-host .name, .icon-chat-cohost + span, .user.role-cohost .name {
     /*color:#D41777 !important;*/
-    color: #B20000 !important;
-}
-.icon-chat-cohost + span, .user.role-cohost .name {
     color: #B20000 !important;
 }
 .icon-chat-manager + span, .user.role-manager .name {
@@ -26,14 +23,7 @@
 .icon-chat-ambassador {
 	background: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/ba.png") !important;
 }
-.icon-chat-host {
-	background: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/host-cohost-animated.png") !important;
-	-webkit-animation: iconAni 5s steps(40) infinite; 
-    	-moz-animation: iconAni 5s steps(40) infinite;
-    	-o-animation: iconAni 5s steps(40) infinite;
-    	animation: iconAni 5s steps(40) infinite;
-}
-.icon-chat-cohost {	
+.icon-chat-host, .icon-chat-cohost {	
 	background: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/host-cohost-animated.png") !important;
 	-webkit-animation: iconAni 5s steps(40) infinite; 
     	-moz-animation: iconAni 5s steps(40) infinite;
