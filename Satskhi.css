@@ -180,3 +180,79 @@ background: url('https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/icon-staff
 #playlist-menu .menu .row .activate-button .icon-check-purple {
     background-position: -70px -140px !important;
 }
+#chat .mention, #chat .mention:nth-child(2n+1), #chat .mention.is-dj, #chat .mention.is-staff, #chat .mention.is-dj:nth-child(2n+1), #chat .mention.is-staff:nth-child(2n+1) {
+-webkit-animation: MentionAlert 1000ms linear infinite;
+   -moz-animation: MentionAlert 1000ms linear infinite;
+    -ms-animation: MentionAlert 1000ms linear infinite;
+     -o-animation: MentionAlert 1000ms linear infinite;
+        animation: MentionAlert 1000ms linear infinite;
+}
+#chat .emote, #chat .mention, #chat .message, #chat .moderation, #chat .skip, #chat .system, #chat .update, #chat .welcome,#chat .message:nth-child(2n+1),#chat .mention:nth-child(2n+1),#chat .skip:nth-child(2n+1),#chat .moderation:nth-child(2n+1),#chat .emote:nth-child(2n+1),#chat .update:nth-child(2n+1),#chat .welcome:nth-child(2n+1)  {
+    -webkit-animation: Chatfadein 0.5s;
+    -moz-animation: Chatfadein 0.5s;
+    -ms-animation: Chatfadein 0.5s;
+    -o-animation: Chatfadein 0.5s;
+    animation: Chatfadein 0.5s;
+}
+/* Animaçoes */
+@keyframes MentionAlert {
+  0% {background: linear-gradient(to right, rgba(212, 23, 119,0.1) 0%,rgba(0,0,0,0.75) 50%);}
+  100% {background: linear-gradient(to right, rgba(212, 23, 119,0.3) 0%,rgba(0,0,0,0.75) 50%);}
+}
+@-moz-keyframes MentionAlert {
+  0% {background: linear-gradient(to right, rgba(212, 23, 119,0.1) 0%,rgba(0,0,0,0.75) 50%);}
+  100% {background: linear-gradient(to right, rgba(212, 23, 119,0.3) 0%,rgba(0,0,0,0.75) 50%);}
+}
+@-webkit-keyframes MentionAlert {
+  0% {background: linear-gradient(to right, rgba(212, 23, 119,0.1) 0%,rgba(0,0,0,0.75) 50%);}
+  100% {background: linear-gradient(to right, rgba(212, 23, 119,0.3) 0%,rgba(0,0,0,0.75) 50%);}
+}
+@-o-keyframes MentionAlert {
+  0% {background: linear-gradient(to right, rgba(212, 23, 119,0.1) 0%,rgba(0,0,0,0.75) 50%);}
+  100% {background: linear-gradient(to right, rgba(212, 23, 119,0.3) 0%,rgba(0,0,0,0.75) 50%);}
+}
+@-ms-keyframes MentionAlert {
+  0% {background: linear-gradient(to right, rgba(212, 23, 119,0.1) 0%,rgba(0,0,0,0.75) 50%);}
+  100% {background: linear-gradient(to right, rgba(212, 23, 119,0.3) 0%,rgba(0,0,0,0.75) 50%);}
+}
+@keyframes Chatfadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-moz-keyframes Chatfadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-webkit-keyframes Chatfadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-ms-keyframes Chatfadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+@-o-keyframes Chatfadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/* Animações */
