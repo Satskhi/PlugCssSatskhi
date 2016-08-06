@@ -35,6 +35,19 @@
     background-size: 30px !important;
 }
 /* Satskhi */
+/* 4SharedPRO */
+[data-cid^="3424833-"] .badge-box .bdg {
+    background-image: url("http://i.imgur.com/AqlZ8lD.gif") !important;
+    background-repeat: round !important;
+    background-size: 30px !important;
+}
+#user-rollover.id-3424833 .badge-box .bdg {
+    border-radius: 5px !important;
+    background-image: url("http://i.imgur.com/AqlZ8lD.gif") !important;
+    background-repeat: round !important;
+    background-size: 30px !important;
+}
+/* 4SharedPRO */
 /* Fеnix */
 [data-cid^="4838584-"] .badge-box .bdg {
     background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badges/badge-4838584.gif") !important;
