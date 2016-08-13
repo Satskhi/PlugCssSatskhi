@@ -88,3 +88,15 @@
     background-position: center;
 }
 /* Chuck */
+/* EDTBot */
+[data-cid^="13720951-"] .badge-box .bdg, 
+#user-rollover.id-13720951 .badge-box .bdg, 
+[data-cid^="13720951-"] .badge-box.no-badge i,
+#user-rollover.id-13720951 .badge-box.no-badge i {
+    border-radius: 5px !important;
+    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badges/badge-13720951.gif") !important;
+    background-repeat: no-repeat !important;
+    background-size: auto 30px !important;
+    background-position: center;
+}
+/* EDTBot */
