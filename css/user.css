@@ -22,7 +22,8 @@
 [data-cid^="3424833-"] .badge-box:hover, 
 [data-cid^="4838584-"] .badge-box:hover, 
 [data-cid^="3972914-"] .badge-box:hover, 
-[data-cid^="3616716-"] .badge-box:hover {
+[data-cid^="3616716-"] .badge-box:hover, 
+[data-cid^="13720951-"] .badge-box:hover {
 	-webkit-transform:scale(2.1) translate(5px); /* Safari and Chrome */
 	-moz-transform:scale(2.1) translate(5px); /* Firefox */
 	-ms-transform:scale(2.1) translate(5px); /* IE 9 */
