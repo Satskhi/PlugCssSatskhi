@@ -45,10 +45,10 @@
 [data-cid^="13720951-"] .badge-box .bdg, #user-rollover.id-13720951 .badge-box .bdg,
 [data-cid^="13720951-"] .badge-box.no-badge i, #user-rollover.id-13720951 .badge-box.no-badge i {
     background: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badge/badge-13720951.png") !important;
-    -webkit-animation: bdg-13720951 3s steps(18) infinite; 
-    -moz-animation: bdg-13720951 3s steps(18) infinite;
-    -o-animation: bdg-13720951 3s steps(18) infinite;
-    animation: bdg-13720951 3s steps(18) infinite;
+    -webkit-animation: bdg-13720951 3s steps(20) infinite; 
+    -moz-animation: bdg-13720951 3s steps(20) infinite;
+    -o-animation: bdg-13720951 3s steps(20) infinite;
+    animation: bdg-13720951 3s steps(20) infinite;
     border-radius: 5px !important;
 }
 @keyframes bdg-13720951 {
