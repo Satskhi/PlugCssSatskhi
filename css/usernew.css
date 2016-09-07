@@ -1,7 +1,26 @@
+.badge-box {
+	background: none !important;
+	-webkit-transition: all 1s ease; /* Safari and Chrome */
+	-moz-transition: all 1s ease; /* Firefox */
+	-o-transition: all 1s ease; /* IE 9 */
+	-ms-transition: all 1s ease; /* Opera */
+	transition: all 1s ease;
+}
+.badge-box.no-badge i {
+ background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badge/no-badge.png");
+ background-repeat: no-repeat;
+ background-size: 30px;
+ top: 0px;
+ left: 0px;
+ width: 30px;
+ height: 30px;
+ border: none;
+}
+
 /* Satskhi */
 [data-cid^="4405644-"] .badge-box .bdg, #user-rollover.id-4405644 .badge-box .bdg,
 [data-cid^="4405644-"] .badge-box.no-badge i, #user-rollover.id-4405644 .badge-box.no-badge i {
-    background: url("https:") !important;
+    background: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badge/badge-4405644.png") !important;
 	-webkit-animation: bdg-4405644 5s steps(32) infinite; 
     -moz-animation: bdg-4405644 5s steps(32) infinite;
     -o-animation: bdg-4405644 5s steps(32) infinite;
@@ -25,7 +44,7 @@
 /* EDTBot */
 [data-cid^="13720951-"] .badge-box .bdg, #user-rollover.id-13720951 .badge-box .bdg,
 [data-cid^="13720951-"] .badge-box.no-badge i, #user-rollover.id-13720951 .badge-box.no-badge i {
-    background: url("https:") !important;
+    background: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badge/badge-13720951.png") !important;
 	-webkit-animation: bdg-13720951 2s steps(18) infinite; 
     -moz-animation: bdg-13720951 2s steps(18) infinite;
     -o-animation: bdg-13720951 2s steps(18) infinite;
@@ -49,7 +68,7 @@
 /* Fеnix */
 [data-cid^="4838584-"] .badge-box .bdg, #user-rollover.id-4838584 .badge-box .bdg,
 [data-cid^="4838584-"] .badge-box.no-badge i, #user-rollover.id-4838584 .badge-box.no-badge i {
-    background: url("http://i.imgur.com/hyEtA9Q.png") !important;
+    background: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badge/badge-4838584.png") !important;
 	-webkit-animation: bdg-4838584 3s steps(22) infinite; 
     -moz-animation: bdg-4838584 3s steps(22) infinite;
     -o-animation: bdg-4838584 3s steps(22) infinite;
@@ -73,7 +92,7 @@
 /* 4SharedPRO */
 [data-cid^="13720951-"] .badge-box .bdg, #user-rollover.id-13720951 .badge-box .bdg,
 [data-cid^="13720951-"] .badge-box.no-badge i, #user-rollover.id-13720951 .badge-box.no-badge i {
-    background: url("http://i.imgur.com/Iy9YE3C.png") !important;
+    background: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badge/badge-13720951.png") !important;
 	-webkit-animation: bdg-13720951 1s steps(20) infinite; 
     -moz-animation: bdg-13720951 1s steps(20) infinite;
     -o-animation: bdg-13720951 1s steps(20) infinite;
