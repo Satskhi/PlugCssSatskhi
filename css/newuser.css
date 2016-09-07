@@ -1,0 +1,95 @@
+/* Satskhi */
+[data-cid^="4405644-"] .badge-box .bdg, #user-rollover.id-4405644 .badge-box .bdg,
+[data-cid^="4405644-"] .badge-box.no-badge i, #user-rollover.id-4405644 .badge-box.no-badge i {
+    background: url("https:") !important;
+	-webkit-animation: bdg-4405644 5s steps(32) infinite; 
+    -moz-animation: bdg-4405644 5s steps(32) infinite;
+    -o-animation: bdg-4405644 5s steps(32) infinite;
+    animation: bdg-4405644 5s steps(32) infinite;
+    border-radius: 5px !important;
+}
+@keyframes bdg-4405644 {
+    from {background-position: 0px;}
+    to {background-position: -960px;}
+}
+@-o-keyframes bdg-4405644 {
+    from {background-position: 0px;}
+    to {background-position: -960px;}
+}
+@-webkit-keyframes bdg-4405644 {
+    from {background-position: 0px;}
+    to {background-position: -960px;}
+}
+/* Satskhi */
+
+/* EDTBot */
+[data-cid^="13720951-"] .badge-box .bdg, #user-rollover.id-13720951 .badge-box .bdg,
+[data-cid^="13720951-"] .badge-box.no-badge i, #user-rollover.id-13720951 .badge-box.no-badge i {
+    background: url("https:") !important;
+	-webkit-animation: bdg-13720951 2s steps(18) infinite; 
+    -moz-animation: bdg-13720951 2s steps(18) infinite;
+    -o-animation: bdg-13720951 2s steps(18) infinite;
+    animation: bdg-13720951 2s steps(18) infinite;
+    border-radius: 5px !important;
+}
+@keyframes bdg-13720951 {
+    from {background-position: 0px;}
+    to {background-position: -540px;}
+}
+@-o-keyframes bdg-13720951 {
+    from {background-position: 0px;}
+    to {background-position: -540px;}
+}
+@-webkit-keyframes bdg-13720951 {
+    from {background-position: 0px;}
+    to {background-position: -540px;}
+}
+/* EDTBot */
+
+/* Fеnix */
+[data-cid^="4838584-"] .badge-box .bdg, #user-rollover.id-4838584 .badge-box .bdg,
+[data-cid^="4838584-"] .badge-box.no-badge i, #user-rollover.id-4838584 .badge-box.no-badge i {
+    background: url("http://i.imgur.com/hyEtA9Q.png") !important;
+	-webkit-animation: bdg-4838584 3s steps(22) infinite; 
+    -moz-animation: bdg-4838584 3s steps(22) infinite;
+    -o-animation: bdg-4838584 3s steps(22) infinite;
+    animation: bdg-4838584 3s steps(22) infinite;
+    border-radius: 5px !important;
+}
+@keyframes bdg-4838584 {
+    from {background-position: 0px;}
+    to {background-position: -660px;}
+}
+@-o-keyframes bdg-4838584 {
+    from {background-position: 0px;}
+    to {background-position: -660px;}
+}
+@-webkit-keyframes bdg-4838584 {
+    from {background-position: 0px;}
+    to {background-position: -660px;}
+}
+/* Fеnix */
+
+/* 4SharedPRO */
+[data-cid^="13720951-"] .badge-box .bdg, #user-rollover.id-13720951 .badge-box .bdg,
+[data-cid^="13720951-"] .badge-box.no-badge i, #user-rollover.id-13720951 .badge-box.no-badge i {
+    background: url("http://i.imgur.com/Iy9YE3C.png") !important;
+	-webkit-animation: bdg-13720951 1s steps(20) infinite; 
+    -moz-animation: bdg-13720951 1s steps(20) infinite;
+    -o-animation: bdg-13720951 1s steps(20) infinite;
+    animation: bdg-13720951 1s steps(20) infinite;
+    border-radius: 5px !important;
+}
+@keyframes bdg-13720951 {
+    from {background-position: 0px;}
+    to {background-position: -600px;}
+}
+@-o-keyframes bdg-13720951 {
+    from {background-position: 0px;}
+    to {background-position: -600px;}
+}
+@-webkit-keyframes bdg-13720951 {
+    from {background-position: 0px;}
+    to {background-position: -600px;}
+}
+/* 4SharedPRO */
