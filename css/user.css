@@ -112,3 +112,28 @@
     to {background-position: -600px;}
 }
 /* 4SharedPRO */
+
+
+
+
+
+/* Pedro */
+[data-cid^="3972914-"] .badge-box .bdg, 
+#user-rollover.id-3972914 .badge-box .bdg {
+    border-radius: 5px !important;
+    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badge/badge-3972914.gif") !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: center;
+}
+/* Pedro */
+/* Chuck */
+[data-cid^="3616716-"] .badge-box .bdg, 
+#user-rollover.id-3616716 .badge-box .bdg {
+    border-radius: 5px !important;
+    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badge/badge-3616716.gif") !important;
+    background-repeat: no-repeat !important;
+    background-size: 30px !important;
+    background-position: center;
+}
+/* Chuck */
