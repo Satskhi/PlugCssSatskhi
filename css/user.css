@@ -7,7 +7,7 @@
 	transition: all 1s ease;
 }
 .badge-box.no-badge i {
- background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badges/no-badge.gif");
+ background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badge/no-badge.png");
  background-repeat: no-repeat;
  background-size: 30px;
  top: 0px;
@@ -17,35 +17,36 @@
  border: none;
 }
 
-/*[data-cid^="4405644-"] .badge-box:hover, */
-/*[data-cid^="4453527-"] .badge-box:hover, */
-/*[data-cid^="3424833-"] .badge-box:hover, */
-/*[data-cid^="4838584-"] .badge-box:hover, */
-/*[data-cid^="3972914-"] .badge-box:hover, */
-/*[data-cid^="3616716-"] .badge-box:hover, */
-/*[data-cid^="13720951-"] .badge-box:hover {*/
-/*	-webkit-transform:scale(2.1) translate(5px); *//* Safari and Chrome */
-/*	-moz-transform:scale(2.1) translate(5px); *//* Firefox */
-/*	-ms-transform:scale(2.1) translate(5px); *//* IE 9 */
-/*	-o-transform:scale(2.1) translate(5px); *//* Opera */
-/*	transform:scale(2.1) translate(5px);*/
-/*}*/
+[data-cid^="4405644-"] .badge-box:hover, 
+[data-cid^="4453527-"] .badge-box:hover, 
+[data-cid^="3424833-"] .badge-box:hover, 
+[data-cid^="4838584-"] .badge-box:hover, 
+[data-cid^="3972914-"] .badge-box:hover, 
+[data-cid^="3616716-"] .badge-box:hover, 
+[data-cid^="13720951-"] .badge-box:hover {
+
+	-webkit-transform:scale(2.1) translate(5px); /* Safari and Chrome */
+	-moz-transform:scale(2.1) translate(5px); /* Firefox */
+	-ms-transform:scale(2.1) translate(5px); /* IE 9 */
+	-o-transform:scale(2.1) translate(5px); /* Opera */
+	transform:scale(2.1) translate(5px);
+}
 
 /* Satskhi */
 [data-cid^="4405644-"] .badge-box .bdg, 
 #user-rollover.id-4405644 .badge-box .bdg {
     border-radius: 5px !important;
-    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badges/badge-4405644-1.gif") !important;
+    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badge/badge-4405644.gif") !important;
     background-repeat: no-repeat !important;
-    background-size: auto 30px !important;
+    background-size: 30px !important;
     background-position: center;
 }
 [data-cid^="4453527-"] .badge-box .bdg, 
 #user-rollover.id-4453527 .badge-box .bdg {
     border-radius: 5px !important;
-    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badges/badge-4453527.jpg") !important;
+    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badge/badge-4453527.jpg") !important;
     background-repeat: no-repeat !important;
-    background-size: auto 30px !important;
+    background-size: 30px !important;
     background-position: center;
 }
 /* Satskhi */
@@ -53,9 +54,9 @@
 [data-cid^="3424833-"] .badge-box .bdg, 
 #user-rollover.id-3424833 .badge-box .bdg {
     border-radius: 5px !important;
-    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badges/badge-3424833.gif") !important;
+    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badge/badge-3424833.gif") !important;
     background-repeat: no-repeat !important;
-    background-size: auto 30px !important;
+    background-size: 30px !important;
     background-position: center;
 }
 /* 4SharedPRO */
@@ -63,9 +64,9 @@
 [data-cid^="4838584-"] .badge-box .bdg, 
 #user-rollover.id-4838584 .badge-box .bdg {
     border-radius: 5px !important;
-    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badges/badge3-4838584.gif.gif") !important;
+    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badge/badge-4838584.gif") !important;
     background-repeat: no-repeat !important;
-    background-size: auto 30px !important;
+    background-size: 30px !important;
     background-position: center;
 }
 /* Fеnix */
@@ -73,9 +74,9 @@
 [data-cid^="3972914-"] .badge-box .bdg, 
 #user-rollover.id-3972914 .badge-box .bdg {
     border-radius: 5px !important;
-    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badges/badge2-1-3972914.gif") !important;
+    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badge/badge-3972914.gif") !important;
     background-repeat: no-repeat !important;
-    background-size: auto 30px !important;
+    background-size: 30px !important;
     background-position: center;
 }
 /* Pedro */
@@ -83,9 +84,9 @@
 [data-cid^="3616716-"] .badge-box .bdg, 
 #user-rollover.id-3616716 .badge-box .bdg {
     border-radius: 5px !important;
-    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badges/badge-1-3616716.gif") !important;
+    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badge/badge-3616716.gif") !important;
     background-repeat: no-repeat !important;
-    background-size: auto 30px !important;
+    background-size: 30px !important;
     background-position: center;
 }
 /* Chuck */
@@ -95,9 +96,9 @@
 [data-cid^="13720951-"] .badge-box.no-badge i,
 #user-rollover.id-13720951 .badge-box.no-badge i {
     border-radius: 5px !important;
-    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badges/badge3-13720951.gif") !important;
+    background-image: url("https://rawgit.com/Satskhi/PlugCssSatskhi/master/img/badge/badge-13720951.gif") !important;
     background-repeat: no-repeat !important;
-    background-size: auto 30px !important;
+    background-size: 30px !important;
     background-position: center;
 }
 /* EDTBot */
