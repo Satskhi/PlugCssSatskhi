@@ -3,6 +3,16 @@
     "author": "Satskhi",
     "css": "https://rawgit.com/Satskhi/PlugCssSatskhi/master/Satskhi.css",
     "ccc": {
-        "host": #4169E1,
+        "admin": null,
+        "ambassador": "#FF8C00",
+        "host": "#4169E1",
+        "cohost": "#228B22",
+        "manager": "#68B354",
+        "bouncer": "#68B354",
+        "rdj": "#68B354",
+        "subscriber": null,
+        "silversubscriber": null,
+        "friend": null,
+        "user": null
     },
 }
