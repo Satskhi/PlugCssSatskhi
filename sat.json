@@ -2,7 +2,7 @@
     "room": "Satskhi Not Here",
     "author": "Satskhir",
     "icon": null,
-    "css": "https://rawgit.com/Satskhi/PlugCssSatskhi/blob/master/Satskhi.css",
+    "css": "https://rawgit.com/Satskhi/PlugCssSatskhi/master/Satskhi.css",
     "rules": {
         "allowAutorespond": true,
         "allowAutowoot": true,
